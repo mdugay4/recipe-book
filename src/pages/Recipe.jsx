@@ -22,7 +22,7 @@ function Recipe() {
     useEffect(() => {
         fetchDetails(params.id);
         console.log(params.id);
-    }, [params.name]);
+    }, [params.id]);
 
     return (
         <DetailWrapper>
