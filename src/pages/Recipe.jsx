@@ -70,7 +70,7 @@ function Recipe() {
 }
 
 const DetailWrapper = styled.div`
-    margin-top: 10rem;
+    margin-top: 5rem;
     margin-bottom: 5rem;
     display: flex;
     .active {
