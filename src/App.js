@@ -29,10 +29,16 @@ const Logo = styled(Link)`
 `;
 
 const Nav = styled.div`
-    padding: 4rem 0rem;
+    /* padding: 4rem 0rem; */
+    padding: 4rem 0 2rem;
     display: flex;
     justify-content: flex-start;
     align-items: center;
+    /* div {
+        display: flex;
+        flex-flow: nowrap;
+        margin-right: 1rem;
+    } */
     svg {
         font-size: 2rem;
     }
