@@ -6,10 +6,6 @@ import styled from 'styled-components';
 function Category() {
     return (
         <List>
-            <SLink to={'/cuisine/Italian'}>
-                <FaPizzaSlice />
-                <h4>Italian</h4>
-            </SLink>
             <SLink to={'/cuisine/American'}>
                 <FaHamburger />
                 <h4>American</h4>
@@ -21,6 +17,10 @@ function Category() {
             <SLink to={'/cuisine/Korean'}>
                 <GiChopsticks />
                 <h4>Korean</h4>
+            </SLink>
+            <SLink to={'/cuisine/Italian'}>
+                <FaPizzaSlice />
+                <h4>Italian</h4>
             </SLink>
         </List>
     );
